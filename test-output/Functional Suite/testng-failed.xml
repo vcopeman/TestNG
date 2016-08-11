@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Functional Suite]">
+  <parameter name="noofproducts" value="10"/>
+  <test name="Products">
+    <classes>
+      <class name="com.tests.TestNGMaven0805.TestNGSecond"/>
+      <class name="com.tests.TestNGMaven0805.TestNG"/>
+    </classes>
+  </test> <!-- Products -->
+</suite> <!-- Failed suite [Functional Suite] -->
